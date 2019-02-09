@@ -259,6 +259,17 @@ console.log(h);
 var query = "What is your name?"
 var answer = 'My name is Rucha.'
 
+// A string can be declared using double quotes or single quotes
+
 //Escaping Literal Quotes in Strings
 
+var myString = "This is a \' Single Quoted String\'";
+console.log(myString);
 
+var yourString = "This is a \" Double Quoted String\"";
+console.log(yourString);
+
+
+//What if you don't want to use backward slash for displaying quotes ???
+var theString = '<img src="img/pic001.png"  alt ="picture of a husky" width="50%">'
+console.log(theString);
