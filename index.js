@@ -270,6 +270,25 @@ var yourString = "This is a \" Double Quoted String\"";
 console.log(yourString);
 
 
-//What if you don't want to use backward slash for displaying quotes ???
+//What if you don't want to use backward slash ((Escape Characters)) for displaying quotes ???
 var theString = '<img src="img/pic001.png"  alt ="picture of a husky" width="50%">'
 console.log(theString);
+
+
+var backslashString="\\backslash\\";
+console.log(backslashString);
+
+var newLineString='rucha\nnimbalkar';
+console.log(newLineString);
+
+var backspaceStr="rucha\b";
+console.log(backspaceStr);
+
+var formString = "name\f";
+console.log(formString);
+
+
+var tabString="rucha\tnimbalkar";
+console.log(tabString);
+
+
