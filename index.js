@@ -292,3 +292,10 @@ var tabString="rucha\tnimbalkar";
 console.log(tabString);
 
 
+var myStr="First Line\nNew Line\ttab"
+console.log(myStr);
+
+//Concatenating Strings with Plus Operator
+
+var myConcatenatedStr = myStr + backslashString;
+console.log(myConcatenatedStr);
